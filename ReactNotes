@@ -1,0 +1,294 @@
+HTML
+CSS
+JAVASCRIPT
+
+
+REACT-->HTML,CSS,JS
+
+
+			website--->webpages
+
+						
+						static 	-->HTML--> markup <> </>	html					
+						dynamic	-->home
+
+
+		5.x-->google 
+	
+		welcome.html
+		
+		<html>
+			<head>
+				<title>
+				load--->css,js
+			</head>
+			<body>
+				<h1>welcome to html</h1>
+			
+			</body>
+		</html>
+
+		browser--->engine
+		
+			google-->v8					DOM TREE  -->browser
+			IE	-->spider monkey
+			mozilla-->chakra
+			
+		form tags--><form><input>
+			
+			
+	CSS:	cascading style sheet 3
+========	
+		
+		1)inline		< style="color:red;">	
+		2)internal		selector{propname1:value;propname2:value}
+		3)external
+
+
+		
+				1)id selector		#
+				2)class selector	.		
+				3)element selector	h1
+				4)group selector	h1,h2,h3,body{}
+				5)all selector		*{}	
+
+JAVASCRIPT:
+===========
+
+	dynamic typed language
+	
+	int contact=89238;//static typed 
+		contact="sandeep"
+
+	
+		let/var/const
+		
+		ECMAScript-->specification
+		
+		ECMAScript-->ES6/ES2015
+			
+			javascript-->
+					
+			<html>
+				
+				
+		let name="suresh"
+
+		function add()
+		{
+		
+		}
+		
+React:
+=====		JSX(javascript xml)      <h1 className="color">welcome</h1> -->JS
+		js library	-->META  jordan walke 2011  2013
+		
+		UI
+		M  V C
+		react native   --> to create mobile apps
+		Virtual DOM			react CLI create-react-app---->webpack,babel
+
+		component -->single page application
+
+		component-->html+css+js
+		
+		root component	-->app
+		
+		
+			node js 
+				node --version
+				npm  --version
+				npm install packagename
+				npm install @angular/cli
+				npm install -g typescript
+				
+		Step-1 to create project
+		
+				npm install -g create-react-app
+				
+				create-react-app demoapp
+		STEP-2		
+				npx create-react-app welcomeapp
+				
+launch react app on different ports(package.json)
+			 "scripts": {
+    "start": "set PORT=3006 && react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  }
+  
+  or
+  
+  .env 
+  PORT=1234		
+				
+		components in react		
+				1)class component / statefull component(muttable)
+import React from 'react'
+class Welcome extends React.Component 
+{
+  render(){
+    return(
+      <div>
+        <p>am from welcome component</p>
+      </div>
+	  
+    )
+  }
+}		
+export default Welcome	
+				2)functional component/ stateless component	/props(imuttable)					
+function App() {
+  return (
+    <div>
+        <h1>welcome to react root component</h1>
+    </div>
+  );
+}
+
+Difference upto 16.x version
+	Class Component			Functional Component 
+	
+State:								props
+state is container which 		container which holds some data related to component
+can hold some data related
+to component					
+
+statefull component			   stateless component
+
+state is muttable				props are imuttable
+
+								props are by default readonly
+this.state,setState
+this.props
+
+
+import React from 'react'
+class Welcome extends React.Component 
+{
+  render(){
+    return(
+      <div>
+        <p style="">am from welcome component</p>
+      </div>
+	  
+    )
+  }
+}		
+
+Bootstrap:
+============	5.x
+
+	html,css,js framework
+
+https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css
+
+
+	Responsive (RWD)
+
+
+
+npm install --save bootstrap
+
+
+
+import "bootstrap/dist/css/bootstrap.min.css"
+
+
+
+
+
+		components
+		
+			functional 	no state,props(imuttable)
+			
+			class 			props,state(muttable)
+	
+Hooks	(16.8)
+
+		react/js function
+
+
+Vscode-->extensions-->download this...
+
+ES7+ React/Redux/React-Native snippets
+
+Few Shortcuts:
+===============
+rcc-->for class component
+rce-->class component with default export
+rfc-->for funational component
+rfce-->functional component with default export
+rafc-->for arrow functional component
+rcons-->to create constructor with default state
+rpce-->to create pure class components
+
+PureComponents:
+==============
+
+			class Test extends React.Component
+
+
+REFs
+
+AXIOS
+
+useEffect(callback,[])
+	useEffect is a tool that lets us interact with the outside world but not affect 
+	the rendering or performance of the component that it's in.
+
+			useState()--->react
+
+  Execute the following command to install JSON server
+npm install -g json-server
+
+Execute the following command to start the server
+json-server --watch filename.json
+
+json-server --watch data.json --port 8000
+			
+
+There are plenty of libraries available to make HTTP calls into React app.
+
+Axios			--->get,post,put,delete
+Fetch
+Superagent
+React-axios
+Use-HTTP
+React-request			
+			
+npm install axios
+
+
+Routing:
+========
+	multipage 
+
+	npm install react-router-dom
+
+Forms:
+========
+
+
+	2 types
+	
+		controlled forms  -->state 
+		
+		un-constrolled forms-->createRef,useRef
+
+	<form>
+	
+	<input type=""
+
+
+state
+
+	
+
+
+		X	username
+
+	A	  B
+
+	app state
