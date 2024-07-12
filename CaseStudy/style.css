@@ -1,0 +1,105 @@
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  width: 100%;
+}
+.cg{
+  float:left;
+}
+h1{
+  margin-top: 10%;
+}
+
+.gb{
+  float:right;
+}
+/* .item {
+  float: left;
+  flex: 1 0 18%; 
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 5px;
+  background-color:aliceblue;
+  border: 1px solid #ccc;
+  height: 30%;
+  box-sizing: border-box;
+  text-align: center;
+  padding: 3px;
+} */
+.button{
+  align-items: center;
+  margin-left: 30px;
+  margin-bottom: 70px;
+}
+.bh{
+  padding-bottom: 0.1px;
+}
+.first{
+  background-color: antiquewhite;
+}
+.ht{
+  padding-bottom: 20px;
+}
+td{
+  margin-bottom: 1%;
+}
+.tr{
+  text-align: center;
+}
+
+.int{
+  margin-right: 8px;
+}
+
+  /* Control the left side */
+  .left {
+    left: 0;
+    background-color: pink;
+    
+  }
+  
+  /* Control the right side */
+  .right {
+    right: 0;
+    background-color: palegoldenrod;
+  }
+  .oreo{
+    margin-top: 5%;
+  }
+
+  .but {
+    display: inline-block;
+    padding: 12px 24px;
+    background: rgb(220,220,220);
+    font-weight: bold;
+    color: rgb(120,120,120);
+    border: none;
+    outline: none;
+    border-radius: 3px;
+    cursor: pointer;
+    transition: ease .3s;
+    
+  }
+
+  .mint{
+    margin-left: 45%;
+  }
+  
+  .but:hover {
+    background: #8BC34A;
+    color: #ffffff;
+  }
+  .kit {
+    width: 60%;
+    margin: 30px auto;
+    background: #9dd496;
+    padding: 60px 120px 80px 120px;
+    text-align: center;
+    -webkit-box-shadow: 2px 2px 3px rgba(0,0,0,0.1);
+    box-shadow: 2px 2px 3px rgba(0,0,0,0.1);
+  }
+
+
+  

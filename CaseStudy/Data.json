@@ -1,0 +1,53 @@
+{
+  "users": [
+    {
+      "name": "rahul",
+      "email": "rahul@gmail.com",
+      "password": "rahul",
+      "id": 1
+    },
+    {
+      "name": "sandeep",
+      "email": "sandeep@gmail.com",
+      "password": "sandeep",
+      "id": 2
+    }
+  ],
+  "products": [
+    {
+      "id": 1,
+      "name": "Mobile",
+      "price": 1200,
+      "description": "Samsung",
+      "imageURL": "faMobile"
+    },
+    {
+      "id": 2,
+      "name": "Laptop",
+      "price": 120000,
+      "description": "Lenovo",
+      "imageURL": "faLaptop"
+    },
+    {
+      "id": 3,
+      "name": "Laptop",
+      "price": 200000,
+      "description": "Sony",
+      "imageURL": "faLaptop"
+    },
+    {
+      "id": 4,
+      "name": "Laptop",
+      "price": 300000,
+      "description": "Dell",
+      "imageURL": "faLaptop"
+    },
+    {
+      "id": 5,
+      "name": "Samsung",
+      "price": 90000,
+      "description": "Mobile",
+      "imageURL": "faMobile"
+    }
+  ]
+}
